@@ -42,7 +42,7 @@ In your Home Manager configuration (e.g., `home.nix`), import the module and ena
 ```nix
 {
   imports = [
-    niri-scrollbar.homeManagerModules."default"
+    niri-scrollbar.homeManagerModules.default
   ];
 
   services.niriScrollbar.enable = true;
@@ -54,8 +54,6 @@ Rebuild your configuration:
 
 ```bash
 home-manager switch
-# OR if using NixOS
-sudo nixos-rebuild switch
 ```
 
 ## ⚙️ Requirements & Permissions
