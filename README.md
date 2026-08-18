@@ -13,6 +13,8 @@ A gesture-driven scrollbar widget designed for the [Niri](https://github.com/YaL
 
 ## 🏗️ Architecture
 
+This service creates a screenwide, short and invisible scrollbar along the top of your monitor, just click, hold and drag
+
 The project consists of two primary layers:
 
 ### 1. Backend Daemon (`niri-scroll-daemon.py`)
