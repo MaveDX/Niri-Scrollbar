@@ -4,6 +4,8 @@ Requires "uinput" kernel module
 
 Creates an invisible scrollbar along the top of your screen you just click, hold and drag
 
+I cannot vouch for the code security of any of this im not a programmer just a dude with an idea
+
 Rest of the readme is AI
 
 A gesture-driven scrollbar widget designed for the Niri Wayland compositor. This project combines a low-level Python daemon with a TypeScript-based UI to provide high-fidelity, gesture-based scrolling.
