@@ -9,9 +9,9 @@
 
   outputs = { self, nixpkgs, home-manager, ... }: {
     # This is the "Magic" part for users
-    homeManagerModules = [
-      ./scrollbar.nix
-    ];
+    homeManagerModules = {
+      default = ./scrollbar.nix;
+    };
 
     # You should also provide the packages via the flake
     packages.x86_64-linux = {
