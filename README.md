@@ -1,6 +1,6 @@
 # Niri Scrollbar 🖱️
 
-> **Disclaimer:** This project is an experimental implementation. Use with caution.
+> **Disclaimer:** This project is an experimental implementation made entirely with AI by an unexperienced programmer. Use with caution.
 
 A gesture-driven scrollbar widget designed for the [Niri](https://github.com/YaLTeR/niri) Wayland compositor. This project combines a low-level Python daemon with a TypeScript-based UI to provide high-fidelity, gesture-based scrolling.
 
