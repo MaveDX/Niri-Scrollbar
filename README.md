@@ -2,6 +2,12 @@ Warning this project is entirely AI slop but it works
 
 Requires "uinput" kernel module
 
+Creates an invisible scrollbar along the top of your screen you just click, hold and drag
+
+I cannot vouch for the code security of any of this im not a programmer just a dude with an idea
+
+Rest of the readme is AI
+
 A gesture-driven scrollbar widget designed for the Niri Wayland compositor. This project combines a low-level Python daemon with a TypeScript-based UI to provide high-fidelity, gesture-based scrolling.
 Features
 
@@ -39,7 +45,7 @@ Using as a Nix Input
 
 Add this repository to your flake.nix:
 
-inputs.niri-scrollbar.url = "github:your-username/niri-scrollbar";
+inputs.niri-scrollbar.url = "github:MaveDX/Niri-Scrollbar";
 
 Manual Development
 
@@ -51,6 +57,7 @@ Project Structure
     niri-scrollbar.ts: The core TypeScript UI logic.
     main.ts: The UI entry point.
     scrollbar.nix: Nix configuration for system integration.
+
 
 License
 
